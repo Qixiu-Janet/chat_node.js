@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Using NodeJS</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+		<div class="col-md-10">
+	    	 <div class="panel panel-primary">
+               <div class="panel-heading" id="chatHeader"> 
+                <b> Chat Window By Janet </b></div>
+               <div class="panel-body panel-success">
+				 
+				    <div id="chatPage" style="display:none">
+				         <ul id="messages" class="list-group"></ul>
+				         <div class="col-sm-12">
+     						 <input type="text" class="form-control" id="inputMessage" placeholder="Type here..." >
+					     </div>			        
+				    </div>
+				    
+				     <div id="loginPage" > 
+				       <div class="form-group">
+					     <label for="usernameInput">user name</label>
+					     <input type="text" class="form-control" id="usernameInput" maxlength="14" placeholder="Please input your name here....">  
+					  </div>
+				        </div>
+				   </div>
+		  </div></div>
+ 	</div>
+  </div>
+
+</body>
+</html>
